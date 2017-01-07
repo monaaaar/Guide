@@ -15,7 +15,7 @@ SoundHaxは、EUR、JPN、KOR、USAリージョンのバージョン9.0.0〜11.2
 + 最新版の[SoundHax](http://soundhax.com/) *(3DS本体の機種、リージョンを選択し、「DOWNLOAD M4A」をクリック)*
 + [otherappペイロード](https://smealum.github.io/3ds/#otherapp) *(3DS本体の機種、バージョン、リージョンを選択して「Download otherapp」)*
 
-#### Instructions
+#### 手順
 
 1. `starter.zip` の _中身_ をSDカード直下にコピー
 2. SoundHax `.m4a` ファイルをSDカード直下にコピー
@@ -24,7 +24,7 @@ SoundHaxは、EUR、JPN、KOR、USAリージョンのバージョン9.0.0〜11.2
 5. ニンテンドー3DSサウンドを起動
 6. 鳥さんのヒントをすべて閉じてからHOMEメニューに戻り、「おわる」で正常に終了してもう一度起動
   + このステップを行わずにSoundHaxを起動すると、ニンテンドー3DSサウンドを起動するたびにこれらのヒントが表示されます
-6. 「SDカード」を開き、SoundHaxの `.m4a`を再生
+6. 「SDカード」を開き、SoundHaxの `.m4a` を再生
 7. Homebrew Launcherがロードされます
 
 [Decrypt9 (Homebrew Launcher)](decrypt9-(homebrew-launcher)) に続く
