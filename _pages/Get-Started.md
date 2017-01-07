@@ -1,23 +1,23 @@
 ---
-title: "Get Started"
+title: "はじめる"
 permalink: /get-started.html
 ---
 
-The colors of the devices in the image may vary, but note the button placement and features of each device carefully to ensure you select the correct one.
+画像の3DSの色はさまざまですが、正しい機種を選択するために各機種のボタン配置や機能に注意してください。
 {: .notice}
 
-Click the image of your device to take you to the appropriate page.
+お使いの3DSの画像をクリックすると、適切なページに移動します。
 {: .notice--primary}
 
-Different device models, versions, and regions will require different steps to achieve the end goal of arm9loaderhax Custom Firmware. The following series of pages will help you find where to start for your device.
+異なる機種、本体FWのバージョン、リージョンによって、それぞれ違った手順を使用します。次の一連のページは、お使いの3DSの起動場所を見つけるのに役立ちます。
 {: .notice--info}
 
-If you have already hacked your 3DS before and have an EmuNAND based CFW setup, just follow all instructions while on SysNAND. Your data will be transfered from EmuNAND to your new A9LH install at the end.
+既に3DSにEmuNANDを導入していて、以前のEmuNANDの内容を新しいSysNAND CFWに移行したい場合、あなたは全ての指示に従ってください。ガイドの最後で、あなたのデータはEmuNANDから新しいA9LH環境に転送されます。
 {: .notice--info}
 
-Before starting, you may want to check your SD card for errors using [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), or [F3X (Mac)](f3x-(mac))!
+作業を開始する前に、[H2testw (Windows)](h2testw-(windows))、[F3 (Linux)](f3-(linux))、[F3X (Mac)](f3x-(mac))を使用してSDカードのエラーをチェックできます！
 {: .notice--warning}
 
-| New 3DS | Old 3DS or 2DS |
+| New 3DS | Old 3DS / 2DS |
 |:-:|:-:|
-| [![New 3DS](images/new3ds.png)](get-started-(new-3ds)) <br><br> [![New 3DS XL](images/new3dsxl.png)](get-started-(new-3ds)) | [![Old 3DS](images/old3ds.png)](get-started-(old-3ds)) &nbsp;&nbsp; [![Old 3DS XL](images/old3dsxl.png)](get-started-(old-3ds)) <br><br> [![2DS](images/2ds.png)](get-started-(old-3ds)) |
+| [![New 3DS](images/new3ds.png)](get-started-(new-3ds)) <br><br> [![New 3DS LL (XL)](images/new3dsxl.png)](get-started-(new-3ds)) | [![Old 3DS](images/old3ds.png)](get-started-(old-3ds)) &nbsp;&nbsp; [![Old 3DS LL(XL)](images/old3dsxl.png)](get-started-(old-3ds)) <br><br> [![2DS](images/2ds.png)](get-started-(old-3ds)) |

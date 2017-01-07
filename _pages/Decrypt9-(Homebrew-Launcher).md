@@ -3,23 +3,23 @@ title: "Decrypt9 (Homebrew Launcher)"
 permalink: /decrypt9-(homebrew-launcher).html
 ---
 
-Due to a bug, safehax currently requires a functioning cartridge of some kind (3ds, nds, flashcart, etc) to be inserted in order to complete successfully. As a temporary workaround, users less than or equal to 9.2.0 who do not own any cartridges can copy `Decrypt9WIP.3dsx` to `/3ds/` and run it directly without any hax.
+現在、safehaxにバグが存在するため、3DSにカートリッジ（3DSゲーム、NDSゲーム、flashcartなど）が挿入されていないと動作しません。 一時的な回避策として、バージョン9.2.0以下3DSでは、 `Decrypt9WIP.3dsx` を `/3ds/` にコピーして、HBLからDecrypt9を直接実行することもできます。
 {: .notice--info}
 
 #### What you need
 
-* The latest release of [Decrypt9WIP](https://github.com/d0k3/Decrypt9WIP/releases/latest/)
-* The latest fork of [safehax+fasthax](https://gbatemp.net/attachments/safehax-fasthax-cb6a1bc-zip.73592/)
+* 最新リリース版の[Decrypt9WIP](https://github.com/d0k3/Decrypt9WIP/releases/latest/)
+* 最新フォークの[safehax+fasthax](https://gbatemp.net/attachments/safehax-fasthax-cb6a1bc-zip.73592/)
 
-#### Instructions
+#### 手順
 
-2. Create a folder named `files9` on the root of your SD card if it does not already exist
-3. Copy and merge the contents of the safehax+fasthax `.zip` to root of your SD card, overwrite existing files
-3. Copy `Decrypt9WIP.bin` from the Decrypt9WIP `.zip` to the root of your SD card and rename `Decrypt9WIP.bin` to `arm9.bin`
-3. Reinsert your SD card into your 3DS
-4. Enter the homebrew launcher
-4. Launch safehax
-4. If the exploit was successful, you will have booted into Decrypt9
+2. SDカード直下に `files9` フォルダが存在しない場合は作成
+3. safehax+fasthax `.zip` の中身をSDカード直下にコピー。統合・上書きしてOK
+3. Decrypt9WIPの `.zip` から `Decrypt9WIP.bin` SDカードにコピーし、ファイル名を `arm9.bin` に変更
+3. SDカードを3DSに戻す
+4. Homebrew Launcherを呼び出す
+4. safehaxを選択して起動
+4. 成功すれば、Decrypt9が起動します
 
-Continue to [2.1.0 ctrtransfer](2.1.0-ctrtransfer)    
+[2.1.0 ctrtransfer](2.1.0-ctrtransfer) に続く
 {: .notice--primary}

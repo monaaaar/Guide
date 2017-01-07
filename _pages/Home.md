@@ -6,70 +6,69 @@ header:
   overlay_color: "#5e616c"
   overlay_image: images/home-page-feature.jpg
   overlay_filter: 0.5
-  cta_label: "Get Started"
+  cta_label: "はじめる"
   cta_url: "/get-started"
   caption:
-excerpt: 'A complete guide to 3DS custom firmware, <br /> from stock to arm9loaderhax.<br />'
+excerpt: '3DS CFWのガイド、公式ファームウェアからarm9loaderhaxまで。<br />'
 ---
 
 {% capture notice-home %}
-**This guide is for retail (consumer purchased; not from the Nintendo Developer Program) consoles _only_!    
-If you have a developer ("PANDA" or "SNAKE") console, check out [devGuide](https://dev.3ds.guide)**
+**このガイドは一般に販売されている3DS (Nintendo Developer Programで配布されるものではない) 用です！
+開発ハードウェア ("PANDA"や"SNAKE") を使用している場合、[devGuide](https://dev.3ds.guide) をご覧ください**
 {% endcapture %}
 
 <div class="notice--danger">{{ notice-home | markdownify }}</div>
 
-**This guide needs *your* help to seed [these](https://3ds.guide/rss.xml) torrents!**
+**このガイドでは、 [これらのTorrentファイル](https://3ds.guide/rss.xml)をシードしていただける方を必要としています！**
 {: .notice--info}
 
-**To use the [magnet](https://en.wikipedia.org/wiki/Magnet_URI_scheme) links in this guide, you will need a torrent client like [Deluge](http://dev.deluge-torrent.org/wiki/Download)**
+**このサイトの[マグネットリンク](https://en.wikipedia.org/wiki/Magnet_URI_scheme)を使用するには、[Deluge](http://dev.deluge-torrent.org/wiki/Download)のようなTorrentクライアントが必要です！**
 {: .notice--info}
 
-**Read all of the introductory pages before proceeding.**
+**実践する前に、紹介されているすべてのページをお読みください。**
 {: .notice--warning}
 
-## What is Homebrew?
+## Homebrewとは
 
-[**Homebrew**](https://en.wikipedia.org/wiki/List_of_homebrew_video_games) usually refers to software that is not authorized by Nintendo. It allows you to run homebrew games, tools like save editing and backup, and emulators for various older systems.
+[**Homebrew**](https://en.wikipedia.org/wiki/List_of_homebrew_video_games)は通常、任天堂が許可していないソフトウェアを指します。 自作ゲーム、セーブデータ改造やバックアップ、さまざまな古いゲームのエミュレータなどのソフトウェアを実行できます。
 
-In most cases, running homebrew on your console is 100% free using just the Nintendo 3DS Sound app. There are also various other exploits in commercial games and the browser to get homebrew running.
+ほとんどの場合、「ニンテンドー3DSサウンド」の脆弱性を使用するだけで、つまり100％無料で3DSでHomebrewを実行することができます。 他にも、商用ゲームやインターネットブラウザなどに、Homebrewを起動するための脆弱性は多く存在します。
 
-## What is Custom Firmware?
+## カスタムファームウェアとは
 
-**Custom Firmware** ("CFW") enables you to use more advanced hacks that userland homebrew can't easily do. For instance, signature patches let you install unsigned titles that appear right on your HOME Menu.
+**カスタムファームウェア** ("CFW") は、Homebrewのみでは実現し難い高度なハックを可能にします。例えば「署名回避パッチ」は、署名のない(許可されていない)ソフトをHOMEメニューにインストールできます。
 
-CFW can be easily set up on any console that is on 11.2.0 (latest) or lower. Other versions can have their firmware downgraded.
+CFWは11.2.0-35以下の3DSで簡単に導入できます。他のバージョンでは、ファームウェアをダウングレードすることができます。
 
-## What does this guide install?
+## このガイドは何をインストールしますか？
 
-This guide has the end goal of taking a completely unmodified 3DS from stock
-firmware to arm9loaderhax powered Custom Firmware. On some versions, it utilizes homebrew as a stepping off point, but Custom Firmware is still the goal.
+このガイドでは、完全に未改造な3DSを通常のファームウェアからarm9loaderhax搭載のカスタムファームウェアに変更することを最終目標としています。 いくつかのバージョンでは、Homebrewを出発点として利用していますが、それでもカスタムファームウェアはまだ目標です。
 
-Arm9loaderhax is the newest and best method of launching Custom Firmware that gives us nearly full control of the system only milliseconds into boot, which is similar to the effect of BootMii for the Wii.
+Arm9loaderhaxは、WiiにおけるBootMiiと似た、起動からわずか数ミリ秒のシステムをほぼ完全に制御できる、カスタムファームウェアを起動する最新かつ最良の方法です。
 
-The benefits of arm9loaderhax over other Custom Firmware launch methods are numerous, and as such it is recommended to use this guide over any other that relies on outdated software (such as menuhax or rxTools).
+他のカスタムファームウェアの起動方法に比べてarm9loaderhaxのメリットは数多くあり、古いバージョンのソフトウェア（menuhaxやrxToolsなど）に依存する方法よりもこのガイドを使用することをお勧めします。
 
-## What can I do with Custom Firmware?
+## カスタムファームウェアで何ができますか？
 
-+ Play all game cards and eShop games, regardless of region
-+ Customize your HOME Menu with user-created [themes](https://3dsthem.es/) and [badges](https://badges.3dsthem.es/)
-+ Use "ROM hacks" for games that you own
-+ Take gameplay and application screenshots
-+ [Backup, edit, and restore](https://gbatemp.net/threads/release-jks-savemanager-homebrew-cia-save-manager.413143/) saves for many games
-+ Play games for older systems with various emulators, using RetroArch or other standalone emulators. (Works best with a New Nintendo 3DS)
-+ Install homebrew titles to your system, and have them appear on your HOME Menu
-+ Dump your game cards to a format you can install, and play them without needing the card
-+ New 3DS only: stream live gameplay to your PC wirelessly with NTR CFW
-+ Run many old Nintendo DS flash carts that were blocked long ago or never worked on Nintendo 3DS
-+ Safely update to the latest system version without fear of losing access to homebrew
++ リージョンに関係なく、すべてのゲームカードとeShopゲームを遊ぶ
++ 個人が作成した [テーマ](https://3dsthem.es/) や [バッジ](https://badges.3dsthem.es/)でHOMEメニューをカスタマイズ
++ 自分が所有するゲームに「ROMハック」を使用する
++ ゲームプレイやアプリケーションのスクリーンショットを撮る
++ ゲームのセーブデータを[バックアップ、編集、リストア](https://gbatemp.net/threads/release-jks-savemanager-homebrew-cia-save-manager.413143/)
++ RetroArchまたは他のエミュレータを使用して、古いハード用のゲームをプレイします。 （Newニンテンドー3DSで快適に動作します）
++ 3DSにHomebrewタイトルをインストールし、HOMEメニューに表示させる
++ ゲームカードをインストール可能な形式に吸い出して、カードを必要とせずに起動
++ New 3DSのみ: NTR CFWを使って、ゲーム映像をPCに無線ストリーミング転送・表示
++ 長い間前に使えなくなった、または3DSで使えた試しのない、昔のDSマジコンを起動
++ Homebrewソフトへのアクセスが失われることなく、安全に最新のシステムバージョンに更新
 
-## What do I need to know before starting?
+## 始める前に知っておくべきことは何ですか？
 
-+ **Before beginning the guide, you must know the risks of 3DS hacking: EVERY time you modify your system, there is always the potential for an UNRECOVERABLE brick. They're rare, but still a possibility so make sure you follow ALL directions EXACTLY.**
-+ If you have already hacked your 3DS before to get an EmuNAND setup, and would like to move the contents of your previous EmuNAND to your new SysNAND CFW, you should follow all instructions and restore your existing EmuNAND when prompted once you reach [Installing arm9loaderhax](installing-arm9loaderhax).
-+ This guide will work on New 3DS, Old 3DS, and 2DS in all regions on firmware 11.2.0 or below *(except CHN / TWN)*.
-+ If everything goes according to plan, you will lose no data and end up with everything that you started with (games, NNID, saves, etc will be preserved).
-+ **Keep the device plugged in and charged throughout the entire process to avoid data loss or damage from an unexpected power-off!**
-+ Your SD card should be [MBR, not GPT](http://www.howtogeek.com/245610/) (the SD card that comes with the device will be MBR by default).
-+ If you need to format a brand new SD card, you can use [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) and set to an Allocation Unit Size of 32K.
-+ The 2DS is essentially identical to the Old 3DS in terms of software, and that any steps which say "Old 3DS" also apply to 2DS.
++ **ガイドを始める前に、3DSを改造するリスクを知っていなければなりません。システムを変更を加える度に、回復不能な文鎮となる可能性が発生します。 文鎮化はまれですが、それでも可能性がありますので、必ずすべての指示に従ってください。**
++ 既にEmuNANDが3DSに導入されていて、以前のEmuNANDの内容を新しいSysNAND CFWに移行したい場合、あなたは全ての指示に従ってください。そして[Installing arm9loaderhax](installing-arm9loaderhax)内に、既存のEmuNANDをSysNANDにリストアするよう促す小窓が表示されます。
++ このガイドでは、ファームウェア11.2.0以下で、全てのリージョン *(CHN / TWNを除く)* の新3DS、旧3DS、および2DS上で動作します。
++ すべてが計画どおりに進むと、データは全く失われず、あなたが始めたすべてのもの（ゲーム、NNID、セーブなど）が保存されます。
++ **予期しない電源オフによるデータの損失や損傷を避けるため、作業全体を通してデバイスのプラグを差し込んだままにしておいてください。**
++ SDカードは [MBR (GPTではなく)](http://www.howtogeek.com/245610/)でフォーマットされている必要があります(3DSに付属のSDカードはデフォルトでMBRです)。
++ SDカードをフォーマットする必要がある場合は、[`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm)を使用することができます。
++ 2DSはソフトウェア面ではOld 3DSと本質的に同じであり、"Old 3DS"で行うステップは2DSにも適用されます。
