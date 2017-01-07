@@ -1,7 +1,2 @@
-# See https://guide.w3ds.cf/
-
-## Licensing
-
-In accordance with the [minimal-mistakes](https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE.txt) project, all files that substantially or wholly were created for that project are licensed under the [MIT License](https://github.com/Plailect/Guide/blob/master/LICENSE.txt).
-
-Files that are not licensed or owned by the creator of the [minimal-mistakes](https://github.com/mmistakes/minimal-mistakes/) project *(including but not limited to the contents of the `_pages` directory)* are the sole property of their owner and **may not** be used without permission.
+# See https://guide.w3ds.cf/ but translation is not completed
+This is a Japanese translation of [A complete guide to 3DS custom firmware](https://github.com/Plailect/Guide) written by Plailect.
