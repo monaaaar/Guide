@@ -6,15 +6,15 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-locale                   : "en-US"
-title                    : "Guide"
+locale                   : "ja-JP"
+title                    : "Guide(ja)"
 title_separator          : "-"
-name                     : "Plailect"
-description              : "Full arm9loaderhax CFW Guide"
-url                      : "https://3ds.guide" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-enforce_ssl              : "3ds.guide"
+name                     : "monaaaar"
+description              : "arm9loaderhax/CFWのガイド"
+url                      : "https://guide.w3ds.cf" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+enforce_ssl              : "guide.w3ds.cf"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "Plailect/Guide" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "monaaaar/Guide" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : # true, false (default)
 words_per_minute         : 200
@@ -49,8 +49,8 @@ atom_feed:
   path                   : # blank (default) uses feed.xml
 
 # SEO Related
-google_site_verification : IzU3K8_0o_n4KY_o0Azr6DK7M4aRlZMzrWKr4iyXyrs
-bing_site_verification   : F3532011519E308583A0A2CAF2DD69E8
+google_site_verification : k_ccQxTroGuZI8yZuzJ4g8nbX9oQbP3LRKygyRY7LgQ
+bing_site_verification   :
 alexa_site_verification  :
 yandex_site_verification :
 
@@ -73,16 +73,16 @@ social:
 analytics:
   provider               : "google" # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          : "UA-86465881-1"
+    tracking_id          : "UA-89947415-1"
 
 
 # Site Author
 author:
-  name             : "Plailect"
-  avatar           : "bio-photo.png"
-  bio              : "3DS Hacker"
-  location         : "Nullsec"
-  email            : "Plailect@gmail.com"
+  name             : "monaaaar"
+  avatar           : # "bio-photo.png"
+  bio              : "a people"
+  location         : "The golden country"
+  email            :
   uri              :
   bitbucket        :
   codepen          :
@@ -90,18 +90,18 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "Plailect"
+  github           : "monaaaar"
   google_plus      :
   keybase          :
   instagram        :
-  lastfm           : "Plailect"
+  lastfm           :
   linkedin         :
   pinterest        :
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
   steam            :
   tumblr           :
-  twitter          : "Plailect"
+  twitter          :
   vine             :
   weibo            :
   xing             :
