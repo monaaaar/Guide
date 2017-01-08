@@ -2,6 +2,9 @@
 layout: splash
 permalink: /
 title: "Guide"
+excerpt: '3DS CFWのガイド、公式ファームウェアからarm9loaderhaxまで。<br />'
+lang: ja_JP
+ref: home
 header:
   overlay_color: "#5e616c"
   overlay_image: images/home-page-feature.jpg
@@ -9,9 +12,6 @@ header:
   cta_label: "はじめる"
   cta_url: "/get-started"
   caption:
-excerpt: '3DS CFWのガイド、公式ファームウェアからarm9loaderhaxまで。<br />'
-  lang: ja_JP
-  ref: home
 ---
 
 {% capture notice-home %}
