@@ -1,7 +1,7 @@
 ---
 title: "DSiWare Downgrade (Save Injection)"
 permalink: /dsiware-downgrade-(save-injection).html
-lang: en_US
+lang: ja_JP
 ref: dsiware-downgrade-(save-injection)
 ---
 

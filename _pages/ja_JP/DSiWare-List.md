@@ -1,7 +1,7 @@
 ---
 title: "DSiWare List"
 permalink: /dsiware-list.html
-lang: en_US
+lang: ja_JP
 ref: dsiware-list
 ---
 

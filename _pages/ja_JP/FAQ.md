@@ -1,7 +1,7 @@
 ---
 title: "FAQ"
 permalink: /faq.html
-lang: en_US
+lang: ja_JP
 ref: faq
 ---
 

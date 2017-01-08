@@ -1,7 +1,7 @@
 ---
 title: "Credits"
 permalink: /credits.html
-lang: en_US
+lang: ja_JP
 ref: credits
 ---
 

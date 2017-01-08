@@ -1,7 +1,7 @@
 ---
 title: "Move EmuNAND"
 permalink: /move-emunand.html
-lang: en_US
+lang: ja_JP
 ref: move-emunand
 ---
 

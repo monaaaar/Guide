@@ -1,7 +1,7 @@
 ---
 title: "Decrypt9 (Browser)"
 permalink: /decrypt9-(browser).html
-lang: en_US
+lang: ja_JP
 ref: decrypt9-(browser)
 ---
 

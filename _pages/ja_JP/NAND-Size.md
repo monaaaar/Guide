@@ -1,7 +1,7 @@
 ---
 title: "NAND Size"
 permalink: /nand-size.html
-lang: en_US
+lang: ja_JP
 ref: nand-size
 ---
 

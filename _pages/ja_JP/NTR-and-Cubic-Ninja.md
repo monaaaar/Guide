@@ -1,7 +1,7 @@
 ---
 title: "NTR and Cubic Ninja"
 permalink: /ntr-and-cubic-ninja.html
-lang: en_US
+lang: ja_JP
 ref: ntr-and-cubic-ninja
 ---
 

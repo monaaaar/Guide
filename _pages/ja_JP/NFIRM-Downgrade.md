@@ -2,7 +2,7 @@
 title: "NFIRM Downgrade"
 permalink: /nfirm-downgrade.html
 redirect_from: "/dsiware-downgrade"
-lang: en_US
+lang: ja_JP
 ref: nfirm-downgrade
 ---
 

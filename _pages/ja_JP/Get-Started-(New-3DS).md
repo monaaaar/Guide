@@ -1,7 +1,7 @@
 ---
 title: "はじめる (New 3DS)"
 permalink: /get-started-(new-3ds).html
-lang: en_US
+lang: ja_JP
 ref: get-started-(new-3ds)
 ---
 

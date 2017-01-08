@@ -1,7 +1,7 @@
 ---
 title: "Hardmod Downgrade"
 permalink: /hardmod-downgrade.html
-lang: en_US
+lang: ja_JP
 ref: hardmod-downgrade
 ---
 

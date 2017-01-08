@@ -1,7 +1,7 @@
 ---
 title: "Decrypt9 (MSET)"
 permalink: /decrypt9-(mset).html
-lang: en_US
+lang: ja_JP
 ref: decrypt9-(mset)
 ---
 

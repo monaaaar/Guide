@@ -1,8 +1,8 @@
 ---
 title: "arm9loaderhaxのインストール"
 permalink: /installing-arm9loaderhax.html
-lang: en_US
-lang: en_US
+lang: ja_JP
+lang: ja_JP
 ref: installing-arm9loaderhax
 ---
 

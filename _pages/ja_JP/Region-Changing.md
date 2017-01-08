@@ -1,7 +1,7 @@
 ---
 title: "Region Changing"
 permalink: /region-changing.html
-lang: en_US
+lang: ja_JP
 ref: region-changing
 ---
 

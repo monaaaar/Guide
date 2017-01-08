@@ -1,7 +1,7 @@
 ---
 title: "F3X (Mac)"
 permalink: /f3x-(mac).html
-lang: en_US
+lang: ja_JP
 ref: f3x-(mac)
 ---
 

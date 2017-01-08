@@ -1,7 +1,7 @@
 ---
 title: "はじめる"
 permalink: /get-started.html
-lang: en_US
+lang: ja_JP
 ref: get-started
 ---
 

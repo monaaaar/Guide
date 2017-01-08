@@ -1,7 +1,7 @@
 ---
 title: "OTP Info"
 permalink: /otp-info.html
-lang: en_US
+lang: ja_JP
 ref: otp-info
 ---
 

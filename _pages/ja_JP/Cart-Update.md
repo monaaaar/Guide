@@ -1,7 +1,7 @@
 ---
 title: "Cart Update"
 permalink: /cart-update.html
-lang: en_US
+lang: ja_JP
 ref: cart-update
 ---
 
