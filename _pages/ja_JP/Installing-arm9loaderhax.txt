@@ -68,14 +68,14 @@ arm9loaderhaxのインストールに成功し、Luma3DSを正しくセットア
 
 1. **SDカードに `/ files9 /` フォルダが存在する場合、コンピュータ上の安全な場所にコピーして、複数の場所 (オンラインファイルストレージなど) にバックアップします。3DS本体のシステムが破損した際に、files9フォルダ内のファイルを使用して復旧することができます。**
 2. SDカード直下に `cias` という名前のフォルダが無い場合、作成
-4. **SDカード直下に `a9lh` フォルダがある場合、必ず削除**
+3. **SDカード直下に `a9lh` フォルダがある場合、必ず削除**
   + **誤って別の本体の `OTP.bin` を使用してarm9loaderhaxをインストールした場合、文鎮化します！**
-3. SDカード直下から `3ds` フォルダを削除
-4. **SDカード直下に、 `starter.zip` の _中身を_ コピー**
+4. SDカード直下から `3ds` フォルダを削除
+5. **SDカード直下に、 `starter.zip` の _中身を_ コピー**
   + このzipには、今削除したフォルダを置き換えるための `3ds` フォルダも含まれています
-5. SafeA9LHInstallerの `.7z` の _中身を_ SDカードのルートにコピー
-6. **data_inputの `.zip` から `a9lh` フォルダを取り出し、SDカードのルートにコピー**
-7. **arm9loaderhaxの `release.7z`の内容をSDカードの` a9lh`フォルダにコピーしてください**
+6. SafeA9LHInstallerの `.7z` の _中身を_ SDカードのルートにコピー
+7. **data_inputの `.zip` から `a9lh` フォルダを取り出し、SDカードのルートにコピー**
+8. **arm9loaderhaxの `release.7z`の内容をSDカードの` a9lh`フォルダにコピーしてください**
 9. hblauncher_loaderの `.zip` から `hblauncher_loader.cia` を取り出し、SDカードの `/cias/` フォルダにコピー
 10. Luma3DS Updaterの `.zip` から `lumaupdater.cia` を取り出し、SDカードの `/cias/` フォルダにコピー
 11. FBIの `.zip` から `FBI.cia` を取り出し、SDカードの `/cias/` フォルダにコピー
@@ -84,9 +84,9 @@ arm9loaderhaxのインストールに成功し、Luma3DSを正しくセットア
 14. そのまま `luma` フォルダに入り、 `payloads` フォルダを作成
 15. Hourglass9の `.zip` から `Hourglass9.bin` を取り出し、SDカードの `/luma/payloads/` フォルダにコピーして `start_Hourglass9.bin` に名前変更
 16. GodMode9の `.zip` から `GodMode9.bin` を取り出し、SDカードの `/luma/payloads/` フォルダにコピーして `up_GodMode9.bin` に名前変更
-16. SDカードの `/files9/` フォルダに `aeskeydb.bin` をコピー
-17. SDカードの `/3ds/` に `DspDump.3dsx` をコピー
-18. SDカードの `/files9/` フォルダに、 `fbi-2.4.2-injectable.zip` _の中身を_ コピー
+17. SDカードの `/files9/` フォルダに `aeskeydb.bin` をコピー
+18. SDカードの `/3ds/` に `DspDump.3dsx` をコピー
+19. SDカードの `/files9/` フォルダに、 `fbi-2.4.2-injectable.zip` _の中身を_ コピー
 
 ##### §2 - arm9loaderhaxのインストール
 
@@ -106,7 +106,7 @@ arm9loaderhaxのインストールに成功し、Luma3DSを正しくセットア
 
 1. (SELECT)ボタンを押しながら3DSを起動し、Luma3DSの設定メニューに入る
   + 電源を入れる前から(SELECT)ボタンを押し続けてください
-  + 真っ黒な画面になった場合、[このトラブルシューティングガイドを参照してください](troubleshooting#ts_sys_a9lh)   
+  + 真っ黒な画面になった場合、[このトラブルシューティングガイドを参照してください](troubleshooting#ts_sys_a9lh)
   + SafeA9LHInstallerの画面が表示された場合、[このトラブルシューティングガイドを参照してください](troubleshooting#ts_safe_a9lh)
 2. (A)ボタンと十字キーで操作し、次の項目をチェックを入れる
   + **"Autoboot SysNAND"**
@@ -147,42 +147,42 @@ arm9loaderhaxのインストールに成功し、Luma3DSを正しくセットア
 1. (START)ボタンを押しながら3DSを起動し、Hourglass9を呼び出す
 2. "SysNAND Backup/Restore"、"Health&Safety Dump" と進み、「安全に使用するために」を `hs.app` にバックアップ **(十字キーの上下左右を使うことで名前を指定できます。)**
 3. 完了したら(B)ボタンを押して戻り、"Health&Safety Inject" へ進む
-8. FBI置換用の `.app` を選ぶ
-4. (A)ボタンで置換を実行
-9. 完了したら、(START)ボタンで再起動
-10. 「安全に使用するために」をまだ起動していて、過去にGATEWAY Launcherを使用してダウングレードしたことがある場合, [このトラブルシューティングガイドを参照してください](troubleshooting#gw_fbi)
+4. FBI置換用の `.app` を選ぶ
+5. (A)ボタンで置換を実行
+6. 完了したら、(START)ボタンで再起動
+7. 「安全に使用するために」をまだ起動していて、過去にGATEWAY Launcherを使用してダウングレードしたことがある場合, [このトラブルシューティングガイドを参照してください](troubleshooting#gw_fbi)
 
 ##### Section VI - Finalizing setup
 
-2. 「安全に使用するために」を起動 (現在FBIに置き換えているもの)
-3. "SD" へ進む
-4. "cias" へ進む
-5. `FBI.cia` を開き、"Install" を選択して(A)ボタン → (A)ボタンでインストール
-6. 同じように `hblauncher_loader.cia` をインストール
-7. 同じように `lumaupdater.cia` をインストール
-8. (B) ボタンで "SD" に戻る
+1. 「安全に使用するために」を起動 (現在FBIに置き換えているもの)
+2. "SD" へ進む
+3. "cias" へ進む
+4. `FBI.cia` を開き、"Install" を選択して(A)ボタン → (A)ボタンでインストール
+5. 同じように `hblauncher_loader.cia` をインストール
+6. 同じように `lumaupdater.cia` をインストール
+7. (B) ボタンで "SD" に戻る
 8. `arm9loaderhax.bin` を開き、"Copy" を実行
 9. (B)ボタンでFBIのメインメニューに戻る
 10. "CTR NAND" へ進む
 11. "\<current directory>" へ進む
 12. "Paste" を選択して(A)ボタン → (A)ボタンで貼り付け
-8. HOMEメニューに戻る
-9. そのままHOMEメニューからHomebrew Launcherを起動
-10. "DSP Dump" を選択して起動
-11. (START)ボタンで終了するよう求められたら従う
-12. 電源を切り、(START)ボタンを押しながら起動してHourglass9を呼び出す
-13. "SysNAND Backup/Restore"、"Health&Safety Inject" と進む
-14. 先ほどバックアップした `hs.app` (FBIを含んでいないもの) を選択し、(A)ボタンを押して置き換え
-15. 完了したらメインメニューに戻り、(SELECT)ボタンを押してからSDカードを取り出す
-15. SDカードを抜いたまま、(START)ボタンを押して再起動
+13. HOMEメニューに戻る
+14. そのままHOMEメニューからHomebrew Launcherを起動
+15. "DSP Dump" を選択して起動
+16. (START)ボタンで終了するよう求められたら従う
+17. 電源を切り、(START)ボタンを押しながら起動してHourglass9を呼び出す
+18. "SysNAND Backup/Restore"、"Health&Safety Inject" と進む
+19. 先ほどバックアップした `hs.app` (FBIを含んでいないもの) を選択し、(A)ボタンを押して置き換え
+20. 完了したらメインメニューに戻り、(SELECT)ボタンを押してからSDカードを取り出す
+21. SDカードを抜いたまま、(START)ボタンを押して再起動
   + SDカードを抜いた状態で初回起動を行うと、CTRNANDベースのLuma3DSの設定ができます
-16. (A)ボタンと十字キーで操作し、次の項目をチェックを入れる
+22. (A)ボタンと十字キーで操作し、次の項目をチェックを入れる
   + **"Show NAND or user string in System Settings"**
-3. **New 3DS** を使用している場合、 *同じように* 次の項目を変更
+23. **New 3DS** を使用している場合、 *同じように* 次の項目を変更
   + **"New 3DS CPU" to "Clock+L2(x)"**
     + これにより多くのゲームのフレームレートが向上しますが、他のゲームでは不安定になる可能性があります
     + ゲームが正常に動作しない場合は、この項目を "Off" にしてもう一度お試しください
-14. SDカードを3DSに戻し、(START)ボタンで保存・再起動して完了です！
+24. SDカードを3DSに戻し、(START)ボタンで保存・再起動して完了です！
 
 ___
 
@@ -197,7 +197,7 @@ Luma3DS Updaterを起動して(A)ボタンを押すだけで、Luma3DSを最新�
 
 <div class="notice--info">{{ notice-10 | markdownify }}</div>
 
-{% capture notice-6 %}   
+{% capture notice-6 %}
 これで、CFWが導入されたSysNANDが起動するようになりました。
 (SELECT)ボタンを押しながら起動することで、Luma3DSの設定メニューを呼び出せるようになりました。
 (START)ボタンを押しながら起動することで、Hourglass9を起動できるようになりました。Hourglass9はarm9loaderhax用に作られた、NANDやカートリッジを操作できる多機能ツールです。
