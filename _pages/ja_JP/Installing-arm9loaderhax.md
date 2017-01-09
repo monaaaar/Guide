@@ -126,8 +126,8 @@ arm9loaderhaxのインストールに成功し、Luma3DSを正しくセットア
 {: .notice--info}
 
 1. (START)ボタンを押しながら3DSを起動し、Hourglass9を呼び出す
-2. "SysNAND Backup/Restore"、"SysNAND Restore (keep a9lh)" と進む
-3. `NANDmin.bin` を使用して復元を行う
+2. "SysNAND Backup/Restore"、
+3. "SysNAND Restore (keep a9lh)" を実行し、 `NANDmin.bin` を使用して復元を行う
 4. 完了したら、 (START)ボタンを押して再起動
   + 真っ黒な画面になった場合、[9.2.0 ctrtransfer](9.2.0-ctrtransfer)を実行してください
 5. 復元したNANDバックアップのバージョンが3.0.0〜4.5.0の場合、必要なファームウェアを手動でダウンロードして配置するまで、コンソールは起動しません。
