@@ -21,8 +21,8 @@ ref: decrypt9-(homebrew-launcher)
 4. Homebrew Launcherを呼び出す
 4. fasthaxを選択して起動
 4. 完了したら、(START)ボタンを押してHomebrew Launcherに戻る
-5. safehaxを選択して起動
   + 何度も試行しなければならないことがあります
+5. safehaxを選択して起動
 6. 成功すれば、Decrypt9が起動します
 
 [2.1.0 ctrtransfer](2.1.0-ctrtransfer) に続く
