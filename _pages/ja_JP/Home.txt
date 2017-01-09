@@ -2,7 +2,7 @@
 layout: splash
 permalink: /
 title: "Guide"
-excerpt: '3DS CFWのガイド、公式ファームウェアからarm9loaderhaxまで。<br />'
+excerpt: '3DSのCFW導入ガイド<br />公式ファームウェアからarm9loaderhaxまで。<br />'
 lang: ja_JP
 ref: home
 header:
